@@ -1,0 +1,517 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  background: url(./img/background.png) no-repeat center / cover;
+}
+
+main header .header-bar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+main header .header-bar img {
+  width: 3.625rem;
+  height: 2rem;
+  margin: 0.75rem 0.5rem;
+}
+
+main header .header-bar .menu {
+  display: none;
+}
+
+main header .header-bar .hamber {
+  width: 7.438rem;
+  font-size: 0.75rem;
+  vertical-align: middle;
+  justify-content: space-between;
+}
+
+main header .header-bar .hamber .hamber-line {
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid white;
+}
+
+main header .header-bar .hamber img {
+  width: 1.375rem;
+  height: 1.09rem;
+}
+
+main header .num {
+  margin: 11.813rem 0.875rem 1.063rem;
+}
+
+main header .num .border {
+  border: 1px solid red;
+  border-radius: 50%;
+}
+
+main header .num p {
+  width: 2.25rem;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+main header h3 {
+  font-weight: 500;
+  font-size: 1.563rem;
+  color: white;
+  margin: 0 0.875rem;
+  line-height: 2.1rem;
+}
+
+main header .scroll {
+  margin: 0.875rem;
+  justify-content: space-between;
+}
+
+main header .scroll .scroll-bar {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+main header .scroll .scroll-bar img {
+  width: 1.063rem;
+  height: 1.438rem;
+}
+
+main header .scroll .scroll-bar p {
+  text-indent: -999px;
+  overflow: hidden;
+}
+
+main header .scroll .youtube-blue-box {
+  width: 12.125rem;
+  height: 5.375rem;
+  line-height: 1rem;
+  background-color: var(--main-color);
+  color: white;
+  padding: 0.438rem 0.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+main header .scroll .youtube-blue-box .font-eng {
+  font-size: 10px;
+}
+
+main header .scroll .youtube-blue-box .youtube-txt {
+  font-size: 7px;
+}
+
+.article1 {
+  padding: 3.813rem 0.875rem;
+  text-align: center;
+}
+
+.article1 .article1-grid {
+  border-top: 1.5px solid var(--main-color);
+  border-bottom: 1.5px solid var(--main-color);
+}
+
+.article1 .article1-grid p:nth-child(1) {
+  font-size: 2.188rem;
+  margin: 35px 0 0;
+  color: var(--main-color);
+}
+
+.article1 .article1-grid p:nth-child(2) {
+  font-size: 2.188rem;
+  margin: 9px 0 20px;
+  color: var(--main-color);
+}
+
+.article1 .article1-grid p:nth-child(3) {
+  font-size: 0.75rem;
+  margin: 0 0 25px;
+  color: var(--main-color);
+}
+
+.article1 .article1-grid img {
+  margin: 4px auto;
+  width: 100%;
+}
+
+.article1 .article1-grid img:last-child {
+  margin-bottom: 32px;
+}
+
+.article2 {
+  margin: 0 14px;
+  text-align: center;
+}
+
+.article2 h3 {
+  font-size: 1.563rem;
+  margin: 0 0 1.563rem;
+}
+
+.article2 .grid {
+  grid-template-rows: 1fr 0.7fr 1fr 0.7fr 1fr 0.7fr;
+}
+
+.article2 .grid img {
+  width: 100%;
+}
+
+.article2 .grid .train-img {
+  grid-row: 1/2;
+}
+
+.article2 .grid .hores-img {
+  grid-row: 3 / 4;
+}
+
+.article2 .grid .trip-img {
+  grid-row: 5/6;
+}
+
+.article2 .grid .train img {
+  width: 19px;
+  height: 19px;
+  margin: 19px 0 0 0;
+}
+
+.article2 .grid .hores img {
+  width: 19px;
+  height: 19px;
+  margin: 19px 0 0 0;
+}
+
+.article2 .grid .rice img {
+  width: 19px;
+  height: 19px;
+  margin: 19px 0 0 0;
+}
+
+.article2 .grid h5 {
+  margin: 19px 8px 8px 12px;
+  font-size: 15px;
+}
+
+.article2 .grid p {
+  font-size: 10px;
+  margin: 0 12px;
+  text-align: left;
+  line-height: 1.3rem;
+}
+.article2 .article2-arrow {
+  display: none;
+}
+
+.article3 {
+  background-color: var(--gray-color);
+  text-align: center;
+  overflow: hidden;
+  padding: 0.938rem 0.938rem 0;
+}
+
+.article3 .article3-bottom {
+  border-bottom: 1px solid #b5b5b5;
+}
+
+.article3 h3 {
+  text-align: center;
+  font-size: 1.563rem;
+  padding: 4rem 0 1.188rem;
+}
+
+.article3 .blue a {
+  color: var(--main-color);
+  margin: 0.531rem;
+  border-bottom: 1px solid var(--main-color);
+  padding-bottom: 0.531rem;
+}
+
+.article3 .gray a {
+  color: #b5b5b5;
+  margin: 0.531rem;
+}
+
+.article3 .article3-img p {
+  text-align: left;
+  font-size: 0.625rem;
+  margin: 0 0 6px;
+}
+
+.article3 .article3-img h5 {
+  margin: 0 0 2.625rem;
+  font-size: 0.938rem;
+}
+
+.article3 .article3-img img {
+  width: 272px;
+  margin: 2.75rem 17px 14px 0;
+}
+
+.article3 .article3-img .article3-arrow {
+  width: 19px;
+  height: 19px;
+  margin: 0 9px;
+}
+
+.article4 {
+  background-color: var(--gray-color);
+  text-align: center;
+}
+
+.article4 h3 {
+  font-size: 1.5rem;
+  margin: 4.063rem 0 0;
+}
+
+.article4 .no-margin {
+  margin: 4px 0 1.063rem;
+}
+
+.article4 p a {
+  font-size: 13px;
+  color: var(--main-color);
+}
+
+.article4 .article4-mid {
+  margin: 0 22px;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.article4 .article4-a {
+  font-size: 13px;
+  width: 145px;
+  height: 40px;
+  line-height: 40px;
+  margin: 1.5rem auto 2.813rem;
+  border: 1px solid var(--main-color);
+}
+
+.article4 .course {
+  margin: 0 0.75rem;
+  text-align: left;
+}
+
+.article4 .course h5 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.article4 .course .trip-box {
+  width: 100%;
+  height: 107px;
+  line-height: 107px;
+}
+
+.article4 .course .trip-box p {
+  font-size: 13px;
+  margin-left: 13px;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
+}
+
+.article4 .course .trip-box1 {
+  background: url(./img/article4-1.png) no-repeat 50% / cover;
+}
+
+.article4 .course .trip-box2 {
+  background: url(./img/article4-2.png) no-repeat 50% / cover;
+}
+
+.article4 .course .trip-box3 {
+  background: url(./img/article4-3.png) no-repeat 50% / cover;
+}
+
+.article4 .sports {
+  margin: 0 0.75rem;
+  text-align: left;
+}
+
+.article4 .sports h5 {
+  font-size: 20px;
+  margin: 44px 0 15px;
+}
+
+.article4 .sports .sport-box {
+  width: 100%;
+  height: 69px;
+  line-height: 69px;
+}
+
+.article4 .sports .sport-box p {
+  font-size: 13px;
+  margin-left: 13px;
+  color: white;
+  text-shadow: 0px 0px 5px #000000;
+}
+
+.article4 .sports .sport-box1 {
+  background: url(./img/article4-4.png) no-repeat 50% / cover;
+}
+
+.article4 .sports .sport-box2 {
+  background: url(./img/article4-5.png) no-repeat 50% / cover;
+}
+
+.article4 .sports .sport-box3 {
+  background: url(./img/article4-6.png) no-repeat 50% / cover;
+  margin-bottom: 4.75rem;
+}
+
+.article6 {
+  padding: 3.875rem 30px;
+}
+
+.article6 h3 {
+  font-size: 20px;
+  margin: 0 0 0.3rem;
+}
+
+.article6 p {
+  font-size: 15px;
+  margin: 0.5rem 0;
+}
+
+.article6 .gray {
+  font-size: 13px;
+  color: #b5b5b5;
+}
+
+.article6 .article6-a {
+  font-size: 13px;
+  width: 141px;
+  height: 40px;
+  line-height: 40px;
+  margin: 1.75rem 0 2.375rem;
+  border: 1px solid var(--main-color);
+  text-align: center;
+}
+
+.article6 p a {
+  color: var(--main-color);
+}
+
+.article6 .grid .article6-img {
+  margin: 0 auto;
+}
+
+.article6 .grid .article6-img img {
+  width: 148px;
+  height: 224px;
+  filter: drop-shadow(0px 0px 44px rgba(0, 0, 0, 0.2));
+}
+
+.article6 .grid .article6-img img:nth-child(1) {
+  margin: 0 1.375rem 2.063rem 0;
+}
+
+.article6 .grid .article6-img img:nth-child(2) {
+  margin: -3.625rem 0 0;
+}
+
+.article6 .article6-bottom {
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.article7 {
+  width: calc(100% - 30px);
+  height: 50vh;
+  margin: 0 auto;
+  padding: 26px 15px;
+  background: url(./img/article7-1.png) no-repeat 50% 70% / 100%;
+}
+
+.article7 h3 {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 0 10px;
+  padding-top: 20px;
+}
+
+.article7 p {
+  font-size: 11px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #31313f;
+  color: white;
+  padding: 0 15px 20px;
+}
+
+footer h4 {
+  display: none;
+  margin: 0;
+}
+
+footer h5 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  margin: 1.813rem 0;
+}
+
+footer .footer-a {
+  font-size: 13px;
+  width: 141px;
+  height: 40px;
+  line-height: 40px;
+  margin: 1.75rem 0 -2.5rem;
+  border: 1px solid white;
+  text-align: center;
+}
+
+footer p a {
+  color: white;
+}
+
+footer .table {
+  overflow: hidden;
+  text-indent: -9999px;
+  margin: 0;
+}
+
+footer .footer-bottom {
+  width: 127px;
+  height: 16px;
+  align-items: center;
+  border-bottom: 2px solid white;
+  margin-bottom: 15px;
+}
+
+footer .footer-bottom p {
+  font-size: 12px;
+  margin: 0 5px 0 2px;
+}
+
+footer .footer-bottom img {
+  width: 9px;
+  height: 9px;
+}
+
+footer .none-flex p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+footer .copy {
+  padding-bottom: 36px;
+  border-bottom: 1px solid white;
+}
+
+footer .cookie {
+  width: 150px;
+  height: 20px;
+  margin: 3px auto 1.063rem;
+  justify-content: space-between;
+}
+
+footer .cookie p {
+  font-size: 12px;
+}

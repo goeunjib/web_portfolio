@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+:root {
+  --kor-font : 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --eng-font : 'DM Sans', sans-serif;
+  --h1-font-size : 9.375rem; /* 150px */
+  --h2-font-size : 7.5rem; /* 120px */
+  --h3-font-size : 5rem; /* 80px */
+  --h4-font-size : 2.5rem; /* 40px */
+  --h5-font-size : 0.938rem; /* 15px */
+  --effect-font-size: 8.75rem; /* 140px */
+  --p-font-size : 1.188rem; /* 19px */
+  --white-color: #fff; 
+  --black-color: #000;
+  --light-bg-color: #e8e1d8;
+  --inner-border : 40px;
+  --container-border : 80px;
+  --title-line-height : 1;
+  --inner-line-heigth : 1.4;
+  --page-padding : 5.729vw 11.458vw;/* 110px 220px */
+  --small-padding : 1.042vw; /* 20px */
+  --big-padding : 2.083vw; /* 40px */
+ }

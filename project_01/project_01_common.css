@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;800&display=swap');
+/* font-family: 'Archivo', sans-serif; */
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css");
+/* font-family: "Pretendard Variable",Pretendard,sans-serif; */
+
+
+:root {
+    --main-color: #3258A6;
+    --gray-color: #F4F4F9;
+}
+
+
+body {
+    font-family: "Pretendard Variable", Pretendard, sans-serif;
+    font-weight: 400;
+    color: #3F3F3F;
+}
+
+body::-webkit-scrollbar {
+    width: .6rem;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.font-eng {
+    font-family: 'Archivo', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

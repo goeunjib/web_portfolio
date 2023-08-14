@@ -1,0 +1,71 @@
+@charset 'UTF-8';
+:root {
+  --main-color: #8f4141;
+  --font-size-h3-Right: 14rem;
+  --font-size-h3-pp: 11.875rem;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  height: 10%;
+  background: #8f4141;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(240, 240, 240);
+}
+
+h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+h4 {
+  margin: 0;
+}
+h5 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+body {
+  font-family: Right Grotesk, sans-serif;
+  margin: 0;
+}
+.flex {
+  display: flex;
+}
+
+.mono {
+  font-family: Azeret Mono, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.pp {
+  font-family: PP Editorial New, sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.ko {
+  font-family: "Pretendard Variable", sans-serif;
+}

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+:root {
+  --main-color: #ffcc00;
+  --point-color: #d81f26;
+  --font-size-tittle-40: 2.5rem;
+  --font-size-tittle-bottom-20: 1.25rem;
+  --font-size-35: 2.188rem;
+  --font-size-30: 1.875rem;
+  --font-size-25: 1.563rem;
+  --font-size-20: 1.25rem;
+  --font-size-18: 1.125rem;
+  --font-size-16: 1rem;
+  --font-size-img-15: 0.938rem;
+  --font-size-14: 0.875rem;
+  --font-size-13: 0.813rem;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.flex {
+  display: flex;
+}
+.red {
+  color: #d81f26;
+}
+.bold {
+  font-weight: 600;
+}

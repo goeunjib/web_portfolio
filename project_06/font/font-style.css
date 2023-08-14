@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "SpaceMono-Regular";
+  src: url(./SpaceMono-Regular.woff2) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SpaceMono-Bold";
+  src: url(./SpaceMono-Bold.woff2) format("woff");
+  font-weight: 800;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gliker-Semi";
+  src: url(./Gliker-SemiBoldSemiCondensed.woff2) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gliker-Bold";
+  src: url(./Gliker-Bold.woff2) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KidsOnTheMoon";
+  src: url(./KidsOnTheMoon.woff2) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Amoitar";
+  src: url(./Amoitar-Regular.woff2) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

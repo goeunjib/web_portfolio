@@ -1,0 +1,525 @@
+/***** main *****/
+main {
+  height: 92vh;
+  background: url(./images/main_bg.jpg) no-repeat 80% 0 / cover;
+  border-radius: 0 0 var(--container-border) var(--container-border);
+  position: relative;
+  z-index: -99;
+}
+
+main h3 {
+  font-size: var(--h1-font-size);
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 6.375rem;
+  left: 15.063rem;
+  color: white;
+  opacity: 1;
+  transition: 1s;
+  z-index: -9;
+}
+
+/***** article1 *****/
+.article1 {
+  position: relative;
+  background-color: var(--light-bg-color);
+}
+
+.article1 .article1-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 var(--container-border) var(--container-border);
+  background-color: white;
+  padding: var(--page-padding);
+}
+
+.article1 .article1-container .txt h3 {
+  font-size: var(--h3-font-size);
+  font-weight: bold;
+  font-family: var(--eng-font);
+}
+
+.article1 .article1-container .txt h3:nth-child(2) {
+  margin-bottom: 4.188rem;
+}
+
+.article1 .article1-container .txt p {
+  font-size: var(--p-font-size);
+  margin-bottom: 2rem;
+  width: 31.063rem;
+  line-height: 130%;
+}
+
+.article1 .article1-container .txt p:nth-child(2) {
+  width: 27.188rem;
+}
+
+.article1 .article1-container .img {
+  width: 36.25rem;
+  height: 36.25rem;
+  background-color: #ddd;
+  background: url(./images/artist/WINNERalbum.jpg) no-repeat 50% / cover;
+  border-radius: 400px 0 40px 0;
+}
+
+/***** article2 *****/
+.article2 {
+  /* z-index: 999; */
+  position: relative;
+  width: 100%;
+  background-color: var(--light-bg-color);
+  text-align: center;
+}
+
+.article2 .third-page-container {
+  z-index: 999;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--light-bg-color);
+}
+
+.article2 .third-page-container .circle-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1500px;
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  border-radius: 50%;
+  text-indent: -9999px;
+  transition: 1s;
+  opacity: 0;
+}
+
+.article2 .third-page-container .text-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: 1s;
+}
+
+.article2 .third-page-container .effect {
+  position: absolute;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: var(--effect-font-size);
+  opacity: 0;
+  transition: 2s;
+}
+
+.article2 .third-page-container .effect1 {
+  top: 10%;
+  left: 20%;
+}
+
+.article2 .third-page-container .effect2 {
+  top: 30%;
+  right: 20%;
+}
+
+.article2 .third-page-container .effect3 {
+  bottom: 30%;
+  left: 20%;
+}
+
+.article2 .third-page-container .effect4 {
+  bottom: 10%;
+  right: 20%;
+}
+
+.article2 .third-page-container .effect1 .ef1 {
+  bottom: -60px;
+}
+
+.article2 .third-page-container .effect1 .ef2 {
+  position: relative;
+}
+
+.article2 .third-page-container .effect1 .ef3 {
+  position: relative;
+}
+
+.article2 .third-page-container .effect1 .ef4 {
+  position: relative;
+}
+
+.article2 .third-page-container .effect1 .ef5 {
+  position: relative;
+}
+
+.article2 .third-page-container .effect1 .ef6 {
+  position: relative;
+}
+
+.article2 .third-page-container .effect1 .ef7 {
+  position: relative;
+}
+
+/***** article3 *****/
+.article3 {
+  z-index: 999;
+  position: relative;
+  background-color: var(--light-bg-color);
+}
+
+.article3 .article3-container {
+  background: #000;
+  border-radius: var(--container-border) var(--container-border) 0 0;
+  position: relative;
+}
+
+.article3 .article3-container h2 {
+  color: white;
+  font-size: var(--h2-font-size);
+  width: 100%;
+  border-bottom: 1px solid white;
+  text-transform: uppercase;
+  padding-left: 7.81rem;
+  margin-bottom: 2.375rem;
+}
+
+/* .article3-artists */
+.article3 .article3-container .article3-artists {
+  background: #000;
+  border-radius: var(--container-border) var(--container-border) 0 0;
+  padding: 3.75rem 6.25rem 14.69rem;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 10.5rem;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .griditem {
+  width: 20.05rem;
+  filter: grayscale(100%);
+  transition: 0.3s;
+  border-radius: 30px;
+  position: relative;
+  margin: 1.2rem 0.6rem;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .griditem:hover {
+  filter: grayscale(0);
+}
+
+.article3 .article3-container p {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border-radius: 0 0 30px 30px;
+  position: absolute;
+  bottom: 0;
+  font-size: var(--p-font-size);
+  font-weight: bold;
+  text-align: center;
+  line-height: 45px;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .bigbang {
+  height: 18.1875rem;
+  background: url(./images/artist/bigbang.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .blackPink {
+  height: 23rem;
+  background: url(./images/artist/black-pink.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .winner {
+  height: 18.9375rem;
+  background: url(./images/artist/winner.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .akmu {
+  height: 16rem;
+  background: url(./images/artist/akmu.jpeg) no-repeat 50% 15% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .TREASURE {
+  height: 27rem;
+  background: url(./images/artist/TREASURE.jpg) no-repeat 50% 100% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .sechskies {
+  height: 20.625rem;
+  background: url(./images/artist/sechskies.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .GDTAEYANG {
+  height: 25rem;
+  background: url(./images/artist/GD-TAEYANG.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .GDRAGON {
+  height: 19.8125rem;
+  background: url(./images/artist/G-DRAGON.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .JISOO {
+  height: 28rem;
+  background: url(./images/artist/JISOO.jpg) no-repeat center 10% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .JENNIe {
+  height: 33rem;
+  background: url(./images/artist/JENNIe.jpg) no-repeat center 20% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .ROSE {
+  height: 28rem;
+  background: url(./images/artist/ROSE.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .LISA {
+  height: 28rem;
+  background: url(./images/artist/LISA.jpg) no-repeat center 20% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .JINU {
+  height: 25rem;
+  background: url(./images/artist/JINU.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .KANGSEUNGYOON {
+  height: 26rem;
+  background: url(./images/artist/KANG-SEUNG-YOON.jpg) no-repeat center 0 / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .MINO {
+  height: 17rem;
+  background: url(./images/artist/MINO.jfif) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .EUNJIWON {
+  height: 34rem;
+  background: url(./images/artist/EUN-JIWON.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .LEECHANHYUK {
+  height: 23rem;
+  background: url(./images/artist/LEE-CHANHYUK.jpg) no-repeat 10% 60% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .LEESUHYUN {
+  height: 29rem;
+  background: url(./images/artist/LEE-SUHYUN.jpg) no-repeat center 10% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .KRUNK {
+  height: 19rem;
+  background: url(./images/artist/KRUNK.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-artists .article3-artists-img .YGfamily {
+  height: 20.625rem;
+  background: url(./images/artist/YGfamily.jpg) no-repeat 50% / cover;
+}
+
+/* .article3-actors */
+.article3 .article3-container .article3-actors {
+  background: #000;
+  border-radius: var(--container-border) var(--container-border) 0 0;
+  padding: 3.75rem 6.25rem 14.69rem;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .griditem {
+  width: 16.5rem;
+  filter: grayscale(100%);
+  transition: 0.3s;
+  border-radius: 30px;
+  position: relative;
+  margin: 1.2rem 0.6rem;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .griditem:hover {
+  filter: grayscale(0);
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .kimHeeAe {
+  height: 23rem;
+  background: url(./images/actor/kimHeeAe.jpg) no-repeat 20% 50% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .yooSeungHo {
+  height: 21.1875rem;
+  background: url(./images/actor/yoo-seung-ho.jpg) no-repeat 50% 0 / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .KANGSEUNGYOON {
+  height: 24rem;
+  background: url(./images/actor/KANG-SEUNG-YOON.jpg) no-repeat center 0 / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .jinkyung {
+  height: 25.4375rem;
+  background: url(./images/actor/jin-kyung.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .kangHui {
+  height: 25.4375rem;
+  background: url(./images/actor/kang-hui.jpg) no-repeat 70% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .chaSeoungWon {
+  height: 16.0625rem;
+  background: url(./images/actor/cha-seoung-won.jpg) no-repeat 50% 10% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .claudiaKim {
+  height: 19rem;
+  background: url(./images/actor/claudia-kim.jpg) no-repeat 50% 0 / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .jisoo {
+  height: 20rem;
+  background: url(./images/actor/JISOO.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .shimYoungEun {
+  height: 25.1875rem;
+  background: url(./images/actor/shim-young-eun.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .leeHoJung {
+  height: 22.625rem;
+  background: url(./images/actor/lee-ho-jung.jpg) no-repeat 0 center / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .kimHyunJin {
+  height: 20rem;
+  background: url(./images/actor/kim-hyun-jin.jpg) no-repeat 0 50% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .choiJiWoo {
+  height: 23rem;
+  background: url(./images/actor/choi-ji-woo.jpg) no-repeat 50% 10% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .leeSungKyoung {
+  height: 21.125rem;
+  background: url(./images/actor/lee-sung-kyoung.jpg) no-repeat 50% 0 / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .sonNaEun {
+  height: 20rem;
+  background: url(./images/actor/son-na-eun.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .kalSoWon {
+  height: 23rem;
+  background: url(./images/actor/kal-so-won.jpg) no-repeat 50% 10% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .leeJuMyoung {
+  height: 23rem;
+  background: url(./images/actor/lee-ju-myoung.jpeg) no-repeat 50% 20% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .yuYeonSu {
+  height: 20rem;
+  background: url(./images/actor/yu-yeon-su.jpg) no-repeat 50% 0 / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .jangHyunSung {
+  height: 18.9375rem;
+  background: url(./images/actor/jang-hyun-sung.jpg) no-repeat 50% 10% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .jangKiYoung {
+  height: 14.9375rem;
+  background: url(./images/actor/jang-ki-young.jpg) no-repeat 50% 5% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .hanSeungTeon {
+  height: 20.625rem;
+  background: url(./images/actor/han-seung-teon.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .parkSoi {
+  height: 25rem;
+  background: url(./images/actor/park-soi.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .parkHyeongSeop {
+  height: 23rem;
+  background: url(./images/actor/park-hyeong-seop.jpg) no-repeat 50% 10% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .jangDeokSu {
+  height: 23.125rem;
+  background: url(./images/actor/jang-deok-su.jpg) no-repeat 0 50% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .yooInNa {
+  height: 25rem;
+  background: url(./images/actor/yoo-in-na.jpg) no-repeat 50% 0 / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .leeSooHyuk {
+  height: 23rem;
+  background: url(./images/actor/lee-soo-hyuk.jpg) no-repeat 50% 10% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .kwonHyunBin {
+  height: 25rem;
+  background: url(./images/actor/kwon-hyun-bin.jpg) no-repeat 50% 0 / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .leeKiTaek {
+  height: 25rem;
+  background: url(./images/actor/lee-ki-taek.jpg) no-repeat 50% 0 / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .choiDaHye {
+  height: 25rem;
+  background: url(./images/actor/choi-da-hye.jpg) no-repeat 50% 0 / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .jungHyeYoung {
+  height: 18.9375rem;
+  background: url(./images/actor/jung-hye-young.jpg) no-repeat 50% 0 / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .gyeongSuJin {
+  height: 19.875rem;
+  background: url(./images/actor/gyeong-su-jin.jpg) no-repeat 50% 10% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .seoJeongYeon {
+  height: 21.6875rem;
+  background: url(./images/actor/seo-jeong-yeon.png) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .jooWooJae {
+  height: 23.125rem;
+  background: url(./images/actor/joo-woo-jae.png) no-repeat 72% 0 / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .namKyuHee {
+  height: 22.5rem;
+  background: url(./images/actor/nam-kyu-hee.jpg) no-repeat 50% / cover;
+}
+
+.article3 .article3-container .article3-actors .article3-actors-img .munJiHyo {
+  height: 22rem;
+  background: url(./images/actor/mun-ji-hyo.jpg) no-repeat 50% / cover;
+}

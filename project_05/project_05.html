@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./img/favicon/site.webmanifest">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./project_05.css" />
+  <link rel="stylesheet" href="./project_05_common.css" />
+  <script defer src="./cdn.jsdelivr.net_npm_swiper@10_swiper-bundle.min.js"></script>
+  <script defer src="./project_05.js"></script>
+  <title>DHLRedesign</title>
+</head>
+
+<body>
+  <header id="header">
+    <div class="headerBar flex">
+      <p class="strong">DHL</p>
+      <p class="Ko">Korea, Republic of 한국 (대한민국)</p>
+      <ul class="menu flex">
+        <li><a href="#">홈</a></li>
+        <li><a href="#">발송</a></li>
+        <li><a href="#">물류 솔루션</a></li>
+        <li><a href="#">도움말 및 지원</a></li>
+        <li><a href="#">서비스 포인트 찾기</a></li>
+      </ul>
+      <div class="lang">
+        <ul class="login flex">
+          <li><a href="#">EN</a></li>
+          <li><a href="#">Ko</a></li>
+          <li><a href="#">가입하기</a></li>
+          <li><a href="#">로그인</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide">
+      <div data-am-gallery>
+        <!-- Radio -->
+        <input type="radio" name="gallery" id="img-1" checked>
+        <input type="radio" name="gallery" id="img-2">
+        <input type="radio" name="gallery" id="img-3">
+        <input type="radio" name="gallery" id="img-4">
+
+        <!-- Images -->
+        <div class="images">
+          <div class="image" style="background-image: url(./img/tittle1.jpg);">
+          </div>
+          <div class="image" style="background-image: url(./img/tittle2.jpg);">
+          </div>
+          <div class="image" style="background-image: url(./img/tittle3.jpg);">
+          </div>
+          <div class="image" style="background-image: url(./img/tittle4.jpg);">
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="navigation">
+          <label class="dot" for="img-1"></label>
+          <label class="dot" for="img-2"></label>
+          <label class="dot" for="img-3"></label>
+          <label class="dot" for="img-4"></label>
+        </div>
+      </div>
+    </div>
+    <div class="nowStarting">
+      <h2>지금 시작하기</h2>
+      <ul class="flex">
+        <li><a href="#">새로운 운송장 작성</a></li>
+        <li><a href="#">요금 산출하기</a></li>
+        <li><a href="#">픽업 예약</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <article class="service">
+    <div class="first flex">
+      <div class="service-tittle">
+        <h2 class="tittle bold">
+          운송 서비스 <span class="red">&#62;</span>
+        </h2>
+        <ul>
+          <li>- 화물</li>
+          <li>- 팔레트, 컨테이너, 카고</li>
+        </ul>
+      </div>
+      <div class="img1">
+        <div class="img"></div>
+        <figcaption>
+          <span class="bold">서류 및 특송화물</span><br /><a href="#">국내 및 해외<span class="red"> &#62;</span></a>
+        </figcaption>
+      </div>
+      <div class="img2">
+        <div class="img"></div>
+        <figcaption>
+          <span class="bold">철도 운송</span><br /><a href="#">유럽 및 아시아 구간<span class="red"> &#62;</span></a>
+        </figcaption>
+      </div>
+    </div>
+    <div class="second flex">
+      <div class="img3">
+        <div class="img"></div>
+        <figcaption>
+          <span class="bold">해상 화물</span><br /><a href="#">국제<span class="red"> &#62;</span></a>
+        </figcaption>
+      </div>
+      <div class="img4">
+        <div class="img"></div>
+        <figcaption>
+          <span class="bold">내륙 운송</span><br /><a href="#">국제<span class="red"> &#62;</span></a>
+        </figcaption>
+      </div>
+      <div class="img5">
+        <div class="img"></div>
+        <figcaption>
+          <span class="bold">항공 화물</span><br /><a href="#">해외<span class="red"> &#62;</span></a><br /><a href="#">Same
+            Day<span class="red"> &#62;</span></a>
+        </figcaption>
+      </div>
+    </div>
+  </article>
+
+  <article class="search">
+    <div class="tittle flex">
+      <h2 class="bold">배송 조회 <span class="red">&#62;</span></h2>
+      <a href="#" class="red">DHL 익스프레스 참조번호 조회 &#62;</a>
+    </div>
+    <div class="search-box">
+      <div class="numberSearch flex">
+        <input type="search" placeholder="운송장 번호를 입력해 주세요" />
+        <p class="numberSearchRed">조회</p>
+      </div>
+      <a href="#">DHL 익스프레스 참조번호 조회 &#62;</a>
+      <div class="searchIcon flex">
+        <div class="icon1">
+          <img src="./img/tag.png" alt="tag" />
+          <figcaption>요금 산출</figcaption>
+        </div>
+        <div class="icon2">
+          <img src="./img/delivery.png" alt="delivery" />
+          <figcaption>DHL 서비스</figcaption>
+        </div>
+        <div class="icon3">
+          <img src="./img/point.png" alt="point" />
+          <figcaption>서비스 포인트 찾기</figcaption>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="delivery">
+    <h2 class="tittle">배송<span class="red"> &#62;</span></h2>
+    <div class="bar flex">
+      <p class="yellow">물류 솔루션</p>
+      <p class="white">고객 서비스</p>
+    </div>
+    <div class="more flex">
+      <div class="delivery-box1 flex">
+        <div class="online">
+          <h5>- 온라인 예약</h5>
+          <ul>
+            <li>로그인하고 발송하기 &#62;</li>
+            <li>Guest로 발송하기 &#62;</li>
+          </ul>
+        </div>
+        <div class="get">
+          <h5>- 견적 받기</h5>
+          <ul>
+            <li>1. 출발지와 도착지를 입력하세요.</li>
+            <li>2. 물품 정보를 입력하세요.</li>
+            <li>3. 예상견적을 확인하세요.</li>
+            <li>4. 온라인 예약을 진행하세요.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="delivery-box2">
+        <img src="./img/car.png" alt="car" />
+      </div>
+      <div class="delivery-box3">
+        <h5><a href="#">- 서비스 자세히 보기</a></h5>
+        <h5>- 서류 및 특송화물</h5>
+        <h5>- 팔레트, 컨테이너 및 기타 화물</h5>
+        <div class="li-box flex">
+          <div class="li">
+            <p>항공 화물</p>
+            <p>해상 화물</p>
+            <p>육로 화물</p>
+          </div>
+          <div class="li">
+            <p>철도 화물</p>
+            <p>Same Day</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="yellowBox flex">
+    <div class="yellowBox1">
+      <img src="./img/banner-03.png" alt="banner icon" />
+      <h5>온라인 예약</h5>
+      <p>맞춤 서비스 조회하기</p>
+    </div>
+    <div class="yellowBox2">
+      <img src="./img/banner-02.png" alt="banner icon" />
+      <h5>견적 받기</h5>
+      <p>온송 품목에 따른 견적 받기</p>
+    </div>
+    <div class="yellowBox3">
+      <img src="./img/banner-01.png" alt="banner icon" />
+      <h5>비즈니스 고객</h5>
+      <p>정기발송 고객번호 개설 및<br />할인 혜택 확인하기</p>
+    </div>
+  </article>
+
+  <article class="solution">
+    <h2 class="tittle">물류 솔루션 <span class="red">&#62;</span></h2>
+    <div class="solution-box flex">
+      <div class="solution-box1">
+        <div class="img"></div>
+        <figcaption>
+          <h5>창고 솔루션</h5>
+          <p><a href="#">중소기업 대상 창고 <span>&#62;</span></a></p>
+          <p><a href="#">대기업 대상 창고 <span>&#62;</span></a></p>
+        </figcaption>
+      </div>
+      <div class="solution-box2">
+        <div class="img"></div>
+        <figcaption>
+          <h5>창고 솔루션</h5>
+          <p><a href="#">중소기업 대상 운송 관리 <span>&#62;</span></a></p>
+          <p><a href="#">대기업 대상 운송 관리 <span>&#62;</span></a></p>
+        </figcaption>
+      </div>
+      <div class="solution-box3">
+        <div class="img"></div>
+        <figcaption>
+          <h5>계약 물류</h5>
+          <p><a href="#">계약 물류 자세히 알아보기 <span>&#62;</span></a></p>
+        </figcaption>
+      </div>
+    </div>
+  </article>
+
+  <article class="customer">
+    <h2>고객 서비스</h2>
+    <p class="center">문제가 있으신가요?</p>
+    <div class="customer-box">
+      <div class="customer-box-white-1 flex">
+        <div class="customer-box-yellow">
+          <img src="./img/service1.png" alt="service1" />
+          <h5>고객지원 센터</h5>
+          <ul>
+            <li><a href="#">고객 서비스 &#62;</a></li>
+            <li><a href="#">고객 포털 로그인 &#62;</a></li>
+            <li><a href="#">디지털 파트너 및 통합 &#62;</a></li>
+            <li><a href="#">개발자 포털 &#62;</a></li>
+            <li><a href="#">산업 분야 &#62;</a></li>
+            <li><a href="#">DHL의 사업 부문 &#62;</a></li>
+          </ul>
+        </div>
+        <div class="white-box1 flex">
+          <div class="customer-box-white white1">
+            <img src="./img/service2.png" alt="service2" />
+            <h5>Post and Paket Deutchland</h5>
+            <p>
+              <a href="#">DHL Preferred Delivery makes it happen
+                <span class="red"> &#62;</span></a>
+            </p>
+          </div>
+          <div class="customer-box-white white3">
+            <img src="./img/service4.png" alt="service4" />
+            <h5>DHL Global Forwarding</h5>
+            <p>
+              <a href="#">Enter your tracking number <span class="red"> &#62;</span></a>
+            </p>
+          </div>
+        </div>
+        <div class="white-box2 flex">
+          <div class="customer-box-white white2">
+            <img src="./img/service3.png" alt="service3" />
+            <h5>DHL Express</h5>
+            <p>
+              <a href="#">Fast, Door-to-Door, Courier Delivered
+                <span class="red"> &#62;</span></a>
+            </p>
+          </div>
+          <div class="customer-box-white white4">
+            <img src="./img/service5.png" alt="service5" />
+            <h5>DHL Freight</h5>
+            <p>
+              <a href="#">DHL Freight is your partner <span class="red"> &#62;</span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="white-box3 flex">
+        <div class="customer-box-white white5">
+          <img src="./img/service6.png" alt="service6" />
+          <h5>DHL Supply Chain</h5>
+          <p>
+            <a href="#">World’s leading contract logistics provider
+              <span class="red"> &#62;</span></a>
+          </p>
+        </div>
+        <div class="customer-box-white white6">
+          <img src="./img/service7.png" alt="service7" />
+          <h5>DHL eCommerce Solutions</h5>
+          <p>
+            <a href="#">However DHL eCommerce is currently
+              <span class="red"> &#62;</span></a>
+          </p>
+        </div>
+        <div class="customer-box-brown">
+          <img src="./img/service8.png" alt="service8" />
+          <h5>Company Information</h5>
+          <p>
+            <a href="#">Logistics For The Connected Age.
+              <span class="red"> &#62;</span></a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <article class="impormation">
+    <h2>중요한 정보</h2>
+    <p>
+      서비스 게시판에는 DHL의 서비스에 영향을 미칠수 있는 사안에 대해 다루고
+      있습니다.
+    </p>
+    <img src="./img/imformation.png" alt="imformation" />
+    <div class="impormation-tittle flex">
+      <div class="impormation-tittle1">
+        <div class="impormation-tittle-box1 flex">
+          <img src="img/informationPin.png" alt="pin" />
+          <h5>“배송 조회 앱 다운로드”를 사칭한 SNS 사기 안내</h5>
+        </div>
+        <p>
+          최근 DHL과 같이 세계적으로<br />
+          인지도가 높은 회사들을 사칭한...
+        </p>
+      </div>
+      <div class="impormation-tittle2">
+        <div class="impormation-tittle-box2 flex">
+          <img src="img/informationPin.png" alt="pin" />
+          <h5>Ukraine Situation Update</h5>
+        </div>
+        <p>
+          DHL은 우크라이나의 일부<br />
+          지역에서 제한된 배송 서비...
+        </p>
+      </div>
+      <div class="impormation-tittle3">
+        <div class="impormation-tittle-box3 flex">
+          <img src="img/informationPin.png" alt="pin" />
+          <h5>Covid-19 Update</h5>
+        </div>
+        <p>Covid-19에 대한 우리의 대응</p>
+      </div>
+    </div>
+  </article>
+
+  <article class="history">
+    <h2>혁신의 역사</h2>
+    <div class="a flex">
+      <a href="#" class="red-bar">DHL 비전</a>
+      <a href="#">DHL 사람들</a>
+      <a href="#">파트너십</a>
+      <a href="#">Delivered</a>
+    </div>
+    <p>
+      <a href="#">DHL은 끊임없이 물류 환경을 혁신하고 구체화하며 간소화하고 있습니다.
+        국제 항공 Express 산업을...<span class="red"> &#62;</span>
+      </a>
+    </p>
+    <p>
+      <a href="#">닐 암스트롱이 인류 최초로 달에 착륙한 1969년 바로 그해에 DHL은 물류
+        환경을 혁신하기 시작했습...<span class="red"> &#62;</span>
+      </a>
+    </p>
+    <p>
+      <a href="#">1969년 닐 암스트롱이 달에 발을 내디딘 지 불과 몇 개월 후 Adrian
+        Dalsey, Larry Hillblom, Robert...<span class="red"> &#62;</span>
+      </a>
+    </p>
+  </article>
+
+  <article class="feedback">
+    <div class="feedback-tittle flex">
+      <img src="./img/speaker.png" alt="speaker" />
+      <h2>Feedback</h2>
+    </div>
+    <p class="mid-tittle">
+      해당 설문 조사는 DHL 웹사이트에 대한 내용임을 유념해주시기 바랍니다!
+    </p>
+    <div class="feedback-part">
+      <p>특정 부분</p>
+      <input type="text" placeholder="&nbsp;&nbsp;이 페이지의 특정 부분에 대한 의견을 제시하고 싶습니다." />
+      <p>전반적인 의견</p>
+      <input type="text" placeholder="&nbsp;&nbsp;웹사이트 전반에 대한 의견을 제시하고 싶습니다." />
+      <p>DHL의 새로운 웹사이트에 대해 어떻게 생각하시나요?</p>
+      <div class="smileBar flex">
+        <div class="img flex">
+          <img src="./img/smile1.png" alt="smile1">
+          <img src="./img/smile2.png" alt="smile2">
+          <img src="./img/smile3.png" alt="smile3">
+          <img src="./img/smile4.png" alt="smile4">
+          <img src="./img/smile5.png" alt="smile5">
+        </div>
+        <input type="text">
+      </div>
+      <p>Powered by GetFeedback</p>
+      <input type="text" placeholder="&nbsp;&nbsp;저희에게 무엇을 알리고 싶으신가요?" class="ask">
+      <p class="end-bar">제출하기</p>
+    </div>
+  </article>
+
+  <article class="Integrations">
+    <h2>Our Digital Integrations:</h2>
+    <p class="orders">Easily Handle Your E-Commerce Orders With DHL</p>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide1"></div>
+        <div class="swiper-slide slide2"></div>
+        <div class="swiper-slide slide3"></div>
+        <div class="swiper-slide slide4"></div>
+        <div class="swiper-slide slide5"></div>
+        <div class="swiper-slide slide1"></div>
+        <div class="swiper-slide slide2"></div>
+        <div class="swiper-slide slide3"></div>
+        <div class="swiper-slide slide4"></div>
+        <div class="swiper-slide slide5"></div>
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <div class="DHL-group flex">
+      <p>Deutsche Post DHL Group</p>
+      <p class="flow">DHL 팔로우하기</p>
+    </div>
+    <div class="cookie flex">
+      <div class="settings flex">
+        <p>사기 주의</p>
+        <p>법적 고지</p>
+        <p>이용약관</p>
+        <p>개인정보 보호 관련 고지</p>
+        <p>분쟁해결</p>
+        <p>추가정보</p>
+        <p>Cookie Settings</p>
+      </div>
+      <div class="copy">
+        <p><a href="../index.html" target="_blank">포트폴리오로 돌아가기</a></p>
+      </div>
+      <div class="SNSicon flex">
+        <img src="./img/you.png" alt="youtube" />
+        <img src="./img/face.png" alt="facebook" />
+        <img src="./img/in.png" alt="in" />
+        <img src="./img/Instagram.png" alt="Instagram" />
+      </div>
+
+    </div>
+    <div class="up">
+      <a href="#header">
+        <img src="./img/ss.png" alt="up">
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
