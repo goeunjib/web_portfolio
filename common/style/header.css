@@ -1,18 +1,10 @@
 @charset 'UTF-8';
+
 header .header_menu .button:hover {
   transition: 0.3s;
 }
 
-header .header_menu p:nth-child(4) {
-  border-bottom: 1px solid #000;
-}
-header .header_menu p:nth-child(5) {
-  border-bottom: 1px solid #000;
-}
-header .header_menu p:nth-child(6) {
-  border-bottom: 1px solid #000;
-}
-header .header_menu p:nth-child(7) {
+header .header_menu .move p {
   border-bottom: 1px solid #000;
 }
 
