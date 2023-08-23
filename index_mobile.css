@@ -516,6 +516,7 @@ header .pp {
 }
 
 .article4 .article4_mobile p {
+  height: 40px;
   font-size: 11px;
   padding: 10px 10px 10px;
   border-top: 1px solid #000;
