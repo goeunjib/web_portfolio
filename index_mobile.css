@@ -139,7 +139,7 @@ header .pp {
 }
 
 .article2 .project {
-  height: 226.5625rem;
+  height: 237rem;
   background-color: var(--main-color);
   margin-top: -1.3rem;
   padding: 1.5rem 0.56rem 5.38rem;
@@ -158,7 +158,7 @@ header .pp {
   height: 1.0625rem;
   line-height: 1.0625rem;
   text-align: center;
-  font-size: 0.75rem;
+  font-size: 0.6rem;
   border-right: 1px solid #000;
 }
 
@@ -179,7 +179,7 @@ header .pp {
   width: 21.5625rem;
   height: 37.1875rem;
   background: #FFF;
-  padding: 0.44rem 0.31rem 0;
+  padding: 0.44rem 0.31rem 2rem;
   position: relative;
 }
 
@@ -218,8 +218,8 @@ header .pp {
   width: 21.5625rem;
   height: 39rem;
   background: #FFF;
-  margin-top: 1.06rem;
-  padding: 0.44rem 0.31rem 0;
+  margin-top: 2rem;
+  padding: 0.44rem 0.31rem 1rem;
   position: relative;
   float: right;
 }
@@ -260,8 +260,8 @@ header .pp {
   width: 21.5625rem;
   height: 33.1875rem;
   background: #FFF;
-  margin-top: 1.06rem;
-  padding: 0.44rem 0.31rem 0;
+  margin-top: 2rem;
+  padding: 0.44rem 0.31rem 1rem;
   position: relative;
   float: left;
 }
@@ -302,13 +302,13 @@ header .pp {
   width: 21.5625rem;
   height: 37.1875rem;
   background: #FFF;
-  margin-top: 1.06rem;
-  padding: 0.44rem 0.31rem 0;
+  margin-top: 2rem;
+  padding: 0.44rem 0.31rem 2rem;
   position: relative;
   float: right;
 }
 
-.article2 .project .design4 .article2_project_menu .team {
+.article2 .project .design4 .article2_project_menu .Responsive {
   opacity: 40%;
 }
 
@@ -348,8 +348,8 @@ header .pp {
   width: 21.5625rem;
   height: 35.1875rem;
   background: #FFF;
-  margin-top: 1.06rem;
-  padding: 0.44rem 0.31rem 0;
+  margin-top: 2rem;
+  padding: 0.44rem 0.31rem 1rem;
   position: relative;
   float: left;
 }
@@ -390,7 +390,7 @@ header .pp {
   width: 21.5625rem;
   height: 36.1875rem;
   background: #FFF;
-  margin-top: 1.06rem;
+  margin-top: 2rem;
   padding: 0.44rem 0.31rem 0;
   position: relative;
   float: right;
@@ -503,7 +503,7 @@ header .pp {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.1fr repeat(2, 140px) 0.1fr repeat(2, 140px) 0.1fr repeat(2, 140px) 0.1fr repeat(3, 140px);
+  grid-template-rows: 1fr;
 }
 
 .article4 .article4_mobile h5 {
@@ -527,6 +527,8 @@ header .pp {
 
 .article4 .article4_mobile img {
   width: 40%;
+  margin: 10px;
+  vertical-align: middle;
 }
 
 .article4 .article4_mobile .html,
@@ -540,7 +542,7 @@ header .pp {
   display: none;
 }
 
-.article4 .article4_mobile .html1 img,
+/* .article4 .article4_mobile .html1 img,
 .article4 .article4_mobile .html2 img,
 .article4 .article4_mobile .html3 img,
 .article4 .article4_mobile .git1 img,
@@ -562,7 +564,7 @@ header .pp {
 .article4 .article4_mobile .TOOL4 img,
 .article4 .article4_mobile .TOOL5 img {
   margin: 15px 0 8px;
-}
+} */
 
 .article4 .article4_mobile .html1,
 .article4 .article4_mobile .html2,
