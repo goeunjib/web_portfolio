@@ -1,1 +1,543 @@
 @charset "UTF-8";
+
+body::-webkit-scrollbar {
+  display: block;
+}
+
+/************ header *************/
+header {
+  padding: 1.5rem 1rem 1.5rem;
+}
+
+header .header_menu {
+  position: fixed;
+  width: calc(100% - 2rem);
+  z-index: 999;
+}
+
+header .header_menu p,
+header .header_menu span {
+  font-size: 1.1rem;
+}
+
+header .header_menu .major {
+  display: block;
+}
+
+header .header_menu .move {
+  width: 300px;
+  justify-content: space-between;
+}
+
+header .header_menu .move p {
+  margin-bottom: -0.2rem;
+
+}
+
+header .header_menu .header_mail p:last-child {
+  font-size: 0.8rem;
+  margin-top: 3px;
+}
+
+header h1 {
+  font-size: 14rem;
+}
+
+header .pp {
+  font-size: 12rem;
+  margin-top: -2.5rem;
+}
+
+header .position {
+  width: 12.5rem;
+  font-size: 1.1rem;
+}
+
+/************ article1 *************/
+.article1 {
+  margin: 1rem;
+  height: 45.51563rem;
+}
+
+.article1 .video {
+  height: 45.51563rem;
+}
+
+.article1 .video h2 {
+  font-size: 9rem;
+  margin-bottom: -2rem;
+}
+
+.article1 .video h2:nth-child(2) {
+  font-size: 8rem;
+}
+
+.article1 .video p {
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+
+/************ article2 *************/
+.article2 .position1 .tablet {
+  width: 20rem;
+  font-size: 1.05rem;
+  margin: 8rem 13.3rem 1rem;
+}
+
+.article2 .position2 {
+  font-size: 1.1rem;
+}
+
+.article2 h3 {
+  font-size: 10rem;
+  margin-left: 1rem;
+}
+
+.article2 .pp {
+  margin-top: -2rem;
+}
+
+.article2 .project {
+  height: 207rem;
+  margin-top: -3.5rem;
+}
+
+.article2 .project .tittle {
+  font-size: 1.3rem;
+}
+
+.article2 .project .article2_project_menu p {
+  width: 10rem;
+}
+
+/************ article2 design1 *************/
+.article2 .project .design1 {
+  width: 39rem;
+  height: 63rem;
+  padding: 1.08rem 0.81rem;
+  float: left;
+  margin-bottom: 2.5rem;
+  transition: 0.3s;
+  position: relative;
+}
+
+.article2 .project .design1:hover {
+  scale: 1.02;
+}
+
+.article2 .project .design1 .design1_img1 {
+  top: 4rem;
+  left: 1rem;
+}
+
+.article2 .project .design1 .blank {
+  height: 26rem;
+}
+
+.article2 .project .design1 h4 {
+  font-size: 4.3rem;
+  margin: 21rem 0 1.81rem;
+}
+
+.article2 .project .design1 .view {
+  margin: 24.5rem 0 1.81rem;
+}
+
+/************ article2 design2 *************/
+.article2 .project .design2 {
+  width: 39rem;
+  height: 63rem;
+  padding: 1.08rem 0.81rem;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+  transition: 0.3s;
+  position: relative;
+}
+
+.article2 .project .design2:hover {
+  scale: 1.02;
+}
+
+.article2 .project .design2 .design2_img {
+  width: 85%;
+  top: 4rem;
+  left: 3.5rem;
+}
+
+.article2 .project .design2 h4 {
+  font-size: 4.3rem;
+  margin: 19rem 0 1.81rem;
+}
+
+.article2 .project .design2 .view {
+  margin: 22rem 0 1rem;
+}
+
+/************ article2 design3 *************/
+.article2 .project .design3 {
+  width: 39rem;
+  height: 63rem;
+  padding: 1.08rem 0.81rem;
+  margin: 0 3.5rem 2.5rem 0;
+  transition: 0.3s;
+  position: relative;
+}
+
+.article2 .project .design3 .blank {
+  height: 33rem;
+}
+
+.article2 .project .design3 h4 {
+  font-size: 4.3rem;
+  margin-top: 2.5rem;
+}
+
+.article2 .project .design3 .view {
+  margin: 6rem 0 3rem;
+}
+
+/************ article2 design4 *************/
+.article2 .project .design4 {
+  width: 39rem;
+  height: 63rem;
+  padding: 1.08rem 0.81rem;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+  transition: 0.3s;
+  position: relative;
+  float: left;
+}
+
+.article2 .project .design4:hover {
+  scale: 1.02;
+}
+
+.article2 .project .design4 .blank {
+  height: 25rem;
+}
+
+.article2 .project .design4 .design4_img {
+  width: 95%;
+  top: 3.5rem;
+  left: 1rem;
+}
+
+.article2 .project .design4 h4 {
+  font-size: 4.3rem;
+  margin-top: 12rem;
+}
+
+/************ article2 design5 *************/
+.article2 .project .design5 {
+  width: 39rem;
+  height: 63rem;
+  padding: 1.08rem 0.81rem;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+  transition: 0.3s;
+  position: relative;
+}
+
+.article2 .project .design5:hover {
+  scale: 1.02;
+}
+
+.article2 .project .design5 .blank {
+  height: 30rem;
+}
+
+.article2 .project .design5 .design5_img {
+  width: 92%;
+  top: 4.5rem;
+  left: 1.5rem;
+}
+
+.article2 .project .design5 h4 {
+  font-size: 4.3rem;
+  margin: 12rem 0 1.81rem;
+}
+
+.article2 .project .design5 .view {
+  margin: 15rem 0 1.81rem;
+}
+
+/************ article2 design6 *************/
+.article2 .project .design6 {
+  width: 39rem;
+  height: 63rem;
+  padding: 1.08rem 0.81rem;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+  transition: 0.3s;
+  position: relative;
+}
+
+.article2 .project .design6:hover {
+  scale: 1.02;
+}
+
+.article2 .project .design6 .blank {
+  height: 25rem;
+}
+
+.article2 .project .design6 .design6_img {
+  width: 92%;
+  top: 4.5rem;
+  left: 1.5rem;
+}
+
+.article2 .project .design6 h4 {
+  font-size: 4.3rem;
+  margin: 12rem 0 1.81rem;
+}
+
+.article2 .project .design6 .view {
+  margin-bottom: 3rem;
+}
+
+/************ article3 *************/
+.article3 h3 {
+  font-size: 10rem;
+  margin-top: -3.5rem;
+}
+
+.article3 .pp {
+  font-size: 7.5rem;
+  margin-top: -2rem;
+}
+
+.article3 p {
+  height: 18rem;
+  font-size: 3rem;
+  margin: 2rem 0 5.8rem;
+}
+
+/************ article4 *************/
+.article4 h3 {
+  font-size: 10rem;
+}
+
+.article4 h3:nth-child(2) {
+  font-size: 7.5rem;
+  margin-top: -2rem;
+}
+
+.article4 .article4_mobile {
+  display: none;
+}
+
+.article4 .article4_pc {
+  display: block;
+}
+
+.article4 .article4_list {
+  width: calc(100% - 4rem);
+  margin: 0 2rem;
+  font-size: 1.25rem;
+  position: relative;
+}
+
+.article4 .article4_list .ko {
+  font-weight: normal;
+}
+
+.article4 .article4_list .flex {
+  border-bottom: 1px solid black;
+}
+
+.article4 .article4_list h5 {
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+
+.article4 .article4_list .flex p {
+  padding: 0.3rem 0;
+}
+
+.article4 .article4_list .first {
+  width: 48%;
+  text-transform: none;
+}
+
+.article4 .article4_list .rate {
+  width: 15%;
+}
+
+.article4 .article4_list .view {
+  width: 30%;
+}
+
+.article4 .article4_list .link {
+  width: 7%;
+}
+
+.article4 .article4_list img {
+  width: 15%;
+  transform: translateY(-10%);
+  transition: 0.5s;
+  position: absolute;
+  right: 15%;
+  opacity: 0;
+}
+
+.article4 .article4_list .logo1 {
+  top: -10%;
+  right: 7rem;
+}
+
+.article4 .article4_list .logo2 {
+  top: -5%;
+  right: 7rem;
+}
+
+.article4 .article4_list .logo3 {
+  top: -3%;
+  right: 7rem;
+}
+
+.article4 .article4_list .logo4 {
+  top: 8%;
+  right: 7rem;
+}
+
+.article4 .article4_list .logo5 {
+  top: 15%;
+  right: 7rem;
+}
+
+.article4 .article4_list .logo6 {
+  top: 20%;
+  right: 7rem;
+}
+
+.article4 .article4_list .logo7 {
+  top: 25%;
+  right: 7rem;
+}
+
+.article4 .article4_list .logo8 {
+  top: 40%;
+  right: 7rem;
+}
+
+.article4 .article4_list .logo9 {
+  top: 48%;
+  right: 7rem;
+}
+
+.article4 .article4_list .logo10 {
+  top: 55%;
+  right: 7rem;
+}
+
+.article4 .article4_list .logo11 {
+  top: 55%;
+  right: 7rem;
+}
+
+.article4 .article4_list .logo12 {
+  top: 60%;
+  right: 7rem;
+}
+
+.article4 .article4_list .logo13 {
+  top: 65%;
+  right: 7rem;
+}
+
+.article4 .article4_list .logo14 {
+  top: 70%;
+  right: 7rem;
+}
+
+.article4 .article4_list .logo15 {
+  top: 70%;
+  right: 7rem;
+}
+
+.article4 .article4_list .flex:hover {
+  background-color: #ddd;
+}
+
+.article4 .article4_list .flex:hover+img {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/************ footer *************/
+footer h3 {
+  font-size: 10rem;
+}
+
+footer h3:nth-child(2) {
+  font-size: 8rem;
+}
+
+footer .contact {
+  font-size: 3rem;
+  margin: 6rem 0 0 10.87rem;
+  text-transform: uppercase;
+  color: var(--main-color);
+  transition: all 0.3s ease;
+}
+
+footer .mail {
+  border-bottom: none;
+  padding: 0 0 1rem 0.5rem;
+}
+
+footer .mail span::after {
+  content: "";
+  width: 0%;
+  left: 3.5rem;
+  height: 4px;
+  display: block;
+  position: absolute;
+  margin-top: 3px;
+  border-bottom: 2px solid #8f4141;
+  transition: all 0.4s ease;
+}
+
+footer .mail:hover span::after {
+  content: "";
+  width: 25%;
+  left: 4rem;
+  height: 4px;
+  display: block;
+  position: absolute;
+  margin-top: 3px;
+  border-bottom: 2px solid #8f4141;
+  transition: all 0.4s ease;
+}
+
+footer .contact:hover+.mail span::after {
+  content: "";
+  width: 25%;
+  left: 4rem;
+  height: 4px;
+  display: block;
+  position: absolute;
+  margin-top: 3px;
+  border-bottom: 2px solid #8f4141;
+  transition: all 0.4s ease;
+}
+
+footer .mono {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  word-break: break-word;
+}
+
+footer .git_link {
+  width: 21%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.7rem;
+  margin-top: 4rem;
+}
+
+footer .git_link a:hover {
+  font-weight: normal;
+  border-bottom: 1px solid white;
+}

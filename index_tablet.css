@@ -1,1 +1,417 @@
 @charset "UTF-8";
+
+/************ header *************/
+header {
+  padding: 2rem 0.38rem 1.5rem;
+}
+
+header .header_menu p,
+header .header_menu span {
+  font-size: 15px;
+}
+
+header .header_menu .header_mail {
+  display: block;
+  text-align: center;
+}
+
+header .header_menu .move {
+  height: 18px;
+}
+
+header h1 {
+  font-size: 9rem;
+}
+
+header .pp {
+  font-size: 8.5rem;
+  margin-top: -1rem;
+}
+
+header .position {
+  margin: 0 10px 0 auto;
+  font-size: 0.8rem;
+}
+
+/************ article1 *************/
+.article1 {
+  height: 32rem;
+}
+
+.article1 .video {
+  height: 32rem;
+}
+
+.article1 .video h2 {
+  font-size: 6.5rem;
+  margin-bottom: -2rem;
+}
+
+.article1 .video h2:nth-child(2) {
+  font-size: 6rem;
+}
+
+.article1 .video p {
+  font-size: 1.5rem;
+  margin-top: 4rem;
+}
+
+/************ article2 *************/
+.article2 .position1 .mobile {
+  display: none;
+}
+
+.article2 .position1 .tablet {
+  display: block;
+  width: 17.86669rem;
+  font-size: 15px;
+  margin: 3rem 13.3rem 1rem;
+}
+
+.article2 .position2 {
+  width: 14rem;
+  font-size: 15px;
+}
+
+.article2 h3 {
+  font-size: 7.46669rem;
+}
+
+.article2 .pp {
+  margin-top: -1.5rem;
+}
+
+.article2 .project {
+  height: 350rem;
+  margin-top: -2.8rem;
+  padding: 6rem 1rem 6rem;
+}
+
+.article2 .project .article2_project_menu {
+  width: 99.5%;
+  height: 1.5rem;
+}
+
+.article2 .project .article2_project_menu p {
+  width: 8rem;
+  font-size: 1rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.article2 .project .tittle {
+  font-size: 1rem;
+}
+
+/************ article2 design1 *************/
+.article2 .project .design1 {
+  width: 33rem;
+  height: 54rem;
+}
+
+.article2 .project .design1 .blank {
+  width: 99.5%;
+  height: 19rem;
+}
+
+.article2 .project .design1 .design1_img1 {
+  top: 4rem;
+  left: 0.9rem;
+}
+
+.article2 .project .design1 h4 {
+  font-size: 3.5rem;
+  margin: 14rem 0 1.81rem;
+}
+
+.article2 .project .design1 .view {
+  font-size: 1rem;
+  margin: 17rem 0 1.81rem;
+}
+
+/************ article2 design2 *************/
+.article2 .project .design2 {
+  width: 33rem;
+  height: 58rem;
+}
+
+.article2 .project .design2 .blank {
+  width: 99.5%;
+  height: 27rem;
+}
+
+.article2 .project .design2 .design2_img {
+  top: 4rem;
+  left: 1.6rem;
+}
+
+.article2 .project .design2 h4 {
+  font-size: 3.5rem;
+  margin: 14rem 0 1.81rem;
+}
+
+.article2 .project .design2 .view {
+  font-size: 1rem;
+  margin: 16.5rem 0 1rem;
+}
+
+/************ article2 design3 *************/
+.article2 .project .design3 {
+  width: 33rem;
+  height: 50rem;
+}
+
+.article2 .project .design3 .blank {
+  width: 99.5%;
+  height: 28rem;
+}
+
+.article2 .project .design3 h4 {
+  font-size: 3.5rem;
+  margin: 1rem 0 1.81rem;
+}
+
+.article2 .project .design3 .view {
+  font-size: 1rem;
+  margin: 3rem 0 1.81rem;
+}
+
+/************ article2 design4 *************/
+.article2 .project .design4 {
+  width: 33rem;
+  height: 56rem;
+}
+
+.article2 .project .design4 .blank {
+  width: 99.5%;
+  height: 20rem;
+}
+
+.article2 .project .design4 .design4_img {
+  top: 4rem;
+  left: 1.7rem;
+}
+
+.article2 .project .design4 h4 {
+  font-size: 3.5rem;
+  margin: 11rem 0 1.81rem;
+}
+
+.article2 .project .design4 .view {
+  font-size: 1rem;
+  margin: 0rem 0 1.81rem;
+}
+
+/************ article2 design5 *************/
+.article2 .project .design5 {
+  width: 33rem;
+  height: 56rem;
+}
+
+.article2 .project .design5 .blank {
+  width: 99.5%;
+  height: 20rem;
+}
+
+.article2 .project .design5 .design5_img {
+  top: 4rem;
+  left: 1.6rem;
+}
+
+.article2 .project .design5 h4 {
+  font-size: 3.5rem;
+  margin: 14rem 0 1.81rem;
+}
+
+.article2 .project .design5 .view {
+  font-size: 1rem;
+  margin: 16.5rem 0 1.81rem;
+}
+
+/************ article2 design6 *************/
+.article2 .project .design6 {
+  width: 33rem;
+  height: 52rem;
+}
+
+.article2 .project .design6 .blank {
+  width: 99.5%;
+  height: 20rem;
+}
+
+.article2 .project .design6 .design6_img {
+  top: 4rem;
+  left: 1.6rem;
+}
+
+.article2 .project .design6 h4 {
+  font-size: 3.5rem;
+  margin: 9rem 0 1.81rem;
+}
+
+.article2 .project .design6 .view {
+  font-size: 1rem;
+  margin: 0 0 1.81rem;
+}
+
+/************ article3 *************/
+.article3 {
+  padding: 0 1rem;
+}
+
+.article3 h3 {
+  font-size: 7.46669rem;
+  margin-top: -2.7rem;
+}
+
+.article3 .pp {
+  font-size: 4rem;
+  margin-top: -1rem;
+}
+
+.article3 p {
+  font-size: 1.5rem;
+  height: 9rem;
+}
+
+/************ article4 *************/
+.article4 {
+  padding: 3.5rem 1rem;
+}
+
+.article4 h3 {
+  font-size: 7.46669rem;
+}
+
+.article4 h3:nth-child(2) {
+  font-size: 5rem;
+  margin-top: -1.2rem;
+}
+
+.article4 .article4_mobile {
+  width: 95%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.article4 .article4_mobile h5 {
+  font-size: 2.5rem;
+  margin-top: 3rem;
+}
+
+.article4 .article4_mobile p {
+  font-size: 1rem;
+}
+
+.article4 .article4_mobile img {
+  height: 120px;
+  margin: 20px;
+}
+
+.article4 .article4_mobile .html,
+.article4 .article4_mobile .Script,
+.article4 .article4_mobile .git,
+.article4 .article4_mobile .TOOL {
+  grid-column: 1/4;
+}
+
+.article4 .article4_mobile .html1,
+.article4 .article4_mobile .html2,
+.article4 .article4_mobile .Script2,
+.article4 .article4_mobile .Script3,
+.article4 .article4_mobile .Script4,
+.article4 .article4_mobile .git1,
+.article4 .article4_mobile .git2,
+.article4 .article4_mobile .TOOL4,
+.article4 .article4_mobile .TOOL5 {
+  border-bottom: none;
+  border-right: 1px solid #000;
+}
+
+.article4 .article4_mobile .html3,
+.article4 .article4_mobile .Script3,
+.article4 .article4_mobile .git3,
+.article4 .article4_mobile .TOOL3 {
+  border-right: none;
+}
+
+.article4 .article4_mobile .Script,
+.article4 .article4_mobile .git,
+.article4 .article4_mobile .TOOL {
+  border-top: none;
+}
+
+.article4 .article4_mobile .Script1,
+.article4 .article4_mobile .Script2,
+.article4 .article4_mobile .Script3 {
+  border-bottom: 1px solid #000;
+}
+
+.article4 .article4_mobile .Script1 p,
+.article4 .article4_mobile .Script2 p,
+.article4 .article4_mobile .Script3 p,
+.article4 .article4_mobile .Script4 p {
+  height: 60px;
+}
+
+.article4 .article4_mobile .TOOL2,
+.article4 .article4_mobile .TOOL4 {
+  border-right: 1px solid #000;
+}
+
+.article4 .article4_mobile .TOOL6 {
+  border-bottom: none;
+}
+
+.article4 .article4_mobile .html2 p,
+.article4 .article4_mobile .git1 p,
+.article4 .article4_mobile .git2 p,
+.article4 .article4_mobile .TOOL1 p,
+.article4 .article4_mobile .TOOL2 p,
+.article4 .article4_mobile .TOOL3 p,
+.article4 .article4_mobile .TOOL4 p,
+.article4 .article4_mobile .TOOL5 p,
+.article4 .article4_mobile .Script4 p {
+  line-height: 40px;
+}
+
+.article4 .article4_mobile .Script1 p {
+  line-height: 60px;
+}
+
+.article4 .article4_mobile .Script3 p {
+  padding: 25px 10px 10px 10px;
+}
+
+/************ footer *************/
+footer h3 {
+  font-size: 7.46669rem;
+}
+
+footer h3:nth-child(2) {
+  font-size: 6rem;
+}
+
+footer p {
+  font-size: 2rem;
+  margin-left: 3rem;
+}
+
+footer p:nth-child(3) {
+  margin: 1.24rem 0 0 3.5rem;
+}
+
+footer .mail {
+  width: 45%;
+  padding: 0 0 0.6rem 0.5rem;
+}
+
+footer .git_link {
+  width: 40%;
+  margin-top: 1.5rem;
+}
+
+footer .mono {
+  font-size: 0.8rem;
+  margin: 1rem;
+}
