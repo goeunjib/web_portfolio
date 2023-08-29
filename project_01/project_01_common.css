@@ -12,6 +12,9 @@
     --gray-color: #F4F4F9;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: "Pretendard Variable", Pretendard, sans-serif;

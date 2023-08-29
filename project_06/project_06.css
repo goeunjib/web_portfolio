@@ -38,6 +38,20 @@ body {
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  height: 10%;
+  background: lightcoral;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, #ffd08b 0%, #ecddd9 30%, #d8cada 60%, #e1ffa9 100%);
+}
+
 .flex {
   display: flex;
 }
@@ -82,13 +96,11 @@ header .header-box {
   width: 100%;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  background: linear-gradient(
-    270deg,
-    #fddfb1 0%,
-    #ecddd9 53.65%,
-    #e3ddde 76.04%,
-    #f1f5d3 100%
-  );
+  background: linear-gradient(270deg,
+      #fddfb1 0%,
+      #ecddd9 53.65%,
+      #e3ddde 76.04%,
+      #f1f5d3 100%);
   height: 1.75rem;
   line-height: 1.75rem;
   white-space: nowrap;
@@ -217,6 +229,7 @@ main .restaurant {
 }
 
 @keyframes main-color {
+
   0%,
   30%,
   100% {
@@ -346,6 +359,7 @@ main .button p:nth-child(1) {
 }
 
 @keyframes background {
+
   0%,
   30% {
     background: url(./img/main-bg1.png) no-repeat 50% / cover;
@@ -367,6 +381,7 @@ main .button p:nth-child(1) {
 }
 
 @keyframes main-img {
+
   0%,
   30% {
     background: url(./img/Horse-Meat.jpg) no-repeat 50% / cover;
@@ -388,6 +403,7 @@ main .button p:nth-child(1) {
 }
 
 @keyframes main-icon1 {
+
   0%,
   30% {
     filter: grayscale(0);
@@ -409,6 +425,7 @@ main .button p:nth-child(1) {
 }
 
 @keyframes main-icon2 {
+
   0%,
   30% {
     filter: grayscale(1);
@@ -430,6 +447,7 @@ main .button p:nth-child(1) {
 }
 
 @keyframes main-icon3 {
+
   0%,
   30% {
     filter: grayscale(1);
@@ -544,13 +562,11 @@ main .button p:nth-child(1) {
   width: 100%;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  background: linear-gradient(
-    270deg,
-    #fddfb1 0%,
-    #ecddd9 53.65%,
-    #e3ddde 76.04%,
-    #f1f5d3 100%
-  );
+  background: linear-gradient(270deg,
+      #fddfb1 0%,
+      #ecddd9 53.65%,
+      #e3ddde 76.04%,
+      #f1f5d3 100%);
   height: 2.875rem;
   line-height: 2.875rem;
   white-space: nowrap;
@@ -704,6 +720,7 @@ main .button p:nth-child(1) {
 .article3 .article3_img .object1 .add {
   background-color: #faa7a7;
 }
+
 .article3 .article3_img .object2 h5 {
   background-color: #a3eb73;
 }
@@ -712,9 +729,11 @@ main .button p:nth-child(1) {
   background-color: #97ebc1;
   z-index: 9;
 }
+
 .article3 .article3_img .object2 {
   position: relative;
 }
+
 .article3 .article3_img .object2 .twoadd {
   width: 100%;
   position: absolute;
@@ -728,7 +747,7 @@ main .button p:nth-child(1) {
   transition: 0.2s;
 }
 
-.article3 .article3_img .object2 .add:hover + .twoadd {
+.article3 .article3_img .object2 .add:hover+.twoadd {
   transform: translateY(-20px);
 }
 
@@ -739,6 +758,7 @@ main .button p:nth-child(1) {
 .article3 .article3_img .object3 .add {
   background-color: #c7a7fa;
 }
+
 .article3 .article3_img .object4 h5 {
   background-color: #ffed47;
 }
@@ -746,14 +766,13 @@ main .button p:nth-child(1) {
 .article3 .article3_img .object4 .add {
   background-color: #c2a964;
 }
+
 .article3 .article3_img .object5 h5 {
-  background: linear-gradient(
-    270deg,
-    #ffd08b 0%,
-    #ecddd9 30%,
-    #d8cada 60%,
-    #e1ffa9 100%
-  );
+  background: linear-gradient(270deg,
+      #ffd08b 0%,
+      #ecddd9 30%,
+      #d8cada 60%,
+      #e1ffa9 100%);
 }
 
 .article3 .article3_img .object5 .add {
@@ -891,13 +910,11 @@ footer {
 
 footer .footer-title {
   height: 7.6875rem;
-  background: linear-gradient(
-    270deg,
-    #fddfb1 0%,
-    #ecddd9 53.65%,
-    #e3ddde 76.04%,
-    #f1f5d3 100%
-  );
+  background: linear-gradient(270deg,
+      #fddfb1 0%,
+      #ecddd9 53.65%,
+      #e3ddde 76.04%,
+      #f1f5d3 100%);
   padding: 1.07rem 4.3rem;
   justify-content: space-between;
   border-top: 1px solid #000;
@@ -960,8 +977,7 @@ footer .footer-blog .footer-logo .input button {
   padding: 1.37rem 0.7rem;
   border-left: none;
   text-indent: -9999px;
-  background: rgba(217, 217, 217, 0.5) url(./img/footer-arrow.png) no-repeat 50% /
-    70%;
+  background: rgba(217, 217, 217, 0.5) url(./img/footer-arrow.png) no-repeat 50% / 70%;
   cursor: pointer;
 }
 

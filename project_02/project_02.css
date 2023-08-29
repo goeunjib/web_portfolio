@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 :root {
   --main-color: #184a5f;
 }
@@ -130,6 +131,7 @@ header .header_menu p {
 .article3 {
   padding: 2.5rem 29.3rem 2.5rem 11.6rem;
 }
+
 .article3 h5 {
   font-family: "Pretendard Variable";
   font-size: 1.5625rem;
@@ -282,6 +284,7 @@ header .header_menu p {
   position: relative;
   transition: 0.3s;
 }
+
 .article5 .flex .WEEKNESS,
 .article5 .flex .THREATS {
   width: 25rem;
@@ -322,14 +325,17 @@ header .header_menu p {
   bottom: -1.6875rem;
   right: 0;
 }
+
 .article5 .flex .WEEKNESS h3 {
   bottom: -1.6875rem;
   left: 0;
 }
+
 .article5 .flex .OPPORTUNITIES h3 {
   top: -1.6875rem;
   right: 0;
 }
+
 .article5 .flex .THREATS h3 {
   top: -1.6875rem;
   left: 0;
@@ -369,9 +375,11 @@ header .header_menu p {
 .article7 {
   padding: 5rem 5rem 0 5rem;
 }
+
 .article7 .flex {
   justify-content: space-between;
 }
+
 .article7 .flex .article7-title h5 {
   font-family: "Pretendard Variable";
   font-size: 3.125rem;
@@ -396,11 +404,13 @@ header .header_menu p {
   padding: 0.8rem 1.1rem;
   transition: 0.3s;
 }
+
 .article7 .flex .article7-title a:hover {
   background-color: var(--main-color);
   color: white;
   font-weight: normal;
 }
+
 .article7 .flex img {
   width: 40.97688rem;
 }
@@ -409,6 +419,7 @@ header .header_menu p {
   width: 100%;
   /* height: 50vh; */
 }
+
 .article7 .swiper-container h3 {
   font-size: 1.4rem;
   text-transform: capitalize;
@@ -418,6 +429,7 @@ header .header_menu p {
   margin: 0 0 -2rem 4.5rem;
   padding: 2rem;
 }
+
 .article7 .swiper-container h3 span {
   opacity: 0;
 }
@@ -435,12 +447,14 @@ header .header_menu p {
   margin: 0 auto;
   width: 70%;
 }
+
 .article7 .container-general .gallery-wrap {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 70vh;
 }
+
 .article7 .container-general .gallery-wrap .item {
   flex: 1;
   height: 100%;
@@ -452,8 +466,9 @@ header .header_menu p {
   opacity: 50%;
   border-radius: 10px;
 }
+
 .article7 .container-general .gallery-wrap .item:hover {
-  flex: 2.7;
+  flex: 1.9;
   filter: grayscale(0);
   opacity: 1;
 }
@@ -461,24 +476,31 @@ header .header_menu p {
 .article7 .wrap-effect .item:nth-child(1) {
   background-image: url(./img/swiper-wrapper1.png);
 }
+
 .article7 .wrap-effect .item:nth-of-type(2) {
   background-image: url(./img/swiper-wrapper2.png);
 }
+
 .article7 .wrap-effect .item:nth-of-type(3) {
   background-image: url(./img/swiper-wrapper3.png);
 }
+
 .article7 .wrap-effect .item:nth-of-type(4) {
   background-image: url(./img/swiper-wrapper4.png);
 }
+
 .article7 .wrap-effect .item:nth-of-type(5) {
   background-image: url(./img/swiper-wrapper5.png);
 }
+
 .article7 .wrap-effect .item:nth-of-type(6) {
   background-image: url(./img/swiper-wrapper6.png);
 }
+
 .article7 .wrap-effect .item:nth-of-type(7) {
   background-image: url(./img/swiper-wrapper7.png);
 }
+
 .article7 .wrap-effect .item:nth-of-type(8) {
   background-image: url(./img/swiper-wrapper8.png);
 }
@@ -521,6 +543,7 @@ header .header_menu p {
 .article8 .skill:hover h2 {
   color: var(--main-color);
 }
+
 .article8 .guide:hover,
 .article8 .skill:hover {
   border: 1px solid var(--main-color);
@@ -588,7 +611,7 @@ footer .mail:hover span::after {
   transition: all 0.4s ease;
 }
 
-footer .contact:hover + .mail span::after {
+footer .contact:hover+.mail span::after {
   content: "";
   width: 30%;
   left: 10.87rem;
